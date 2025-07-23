@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imgs/favicon-key.svg" type="image/x-icon">
+
+</head>
+<body>
+    
+    <div id="whole-container">
+
+        <!-- left part -->
+        <div id="left-part">
+            <img id="left-background-img" src="imgs/background-castel-4.jpg" alt="">
+            <div id="left-bar">
+                <div id="left-bar-wrap">
+                    <img src="imgs/odin-lined.png" alt="">
+                    <p>ODIN</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- right part -->
+        <div id="right-part">
+            <div id="right-top-container">
+                <p id="right-top-article-1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get stated.</p><br>
+                <p id="right-top-article-2">You <em>know</em> you want to.</p>
+            </div>
+
+            <h1 id="middle-title">Let's do this!</h1>
+
+            <div id="user-form-container">
+
+                <form action="" method="get" id="user-form">
+                    <div id="first-name-container" class="form-group">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Thor" required>
+                    </div>
+
+                    <div id="last-name-container" class="form-group">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Odinson" required>
+                    </div>
+
+                    <div id="email-container" class="form-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div id="phone-number" class="form-group">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number" pattern="1[0-9]{10}" required>
+                    </div>
+
+                    <div id="password" class="form-group">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" placeholder="≥8 charactors with letters and numbers" pattern="(?=.*[A-Za-z])(?=.*\d).{8,}" required>
+                    </div>
+
+                    <div id="confirm-password" class="form-group">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
+                </form>
+            </div>
+
+
+            <button type="submit" id="submit-button" form="user-form">Create Account</button>
+
+            <p id="log-in">Already have an account? <a href="#" target="_blank">Log in</a></p>
+
+
+        </div>
+        <!-- end of right-part -->
+
+        
+    </div>
+    <!-- end of the whole-container -->
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
