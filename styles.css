@@ -79,11 +79,11 @@
 #right-top-container {
     height:30vh;
     background: #f8f8f8;
-    font-size: calc(1rem + 0.8vw);
+    font-size: calc(1rem + 0.7vw);
     /* flex font-size basic */
     font-weight: bold;
     overflow: hidden;
-    padding-top: 10vh;
+    padding-top: 8vh;
     padding-left: 3vw;
     padding-right: 10vh;
 }   
